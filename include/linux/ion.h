@@ -357,6 +357,7 @@ struct ion_allocation_data {
  */
 struct ion_fd_data {
 	struct ion_handle *handle;
+	ion_user_handle_t handle;
 	int fd;
 };
 
